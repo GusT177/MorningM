@@ -8,10 +8,10 @@ version '0.0.1'
 ui_page './index.html'
 
 files {
-    'html/index.html',
-    'html/css/*.css',
-    'html/js/**/*.js',
-    'html/components/*.js'
+    './index.html',
+    './css/*.css',
+    './JS/**/*.js',
+    './component/*.js'
 }
 
 client_scripts {

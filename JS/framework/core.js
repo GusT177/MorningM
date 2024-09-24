@@ -1,4 +1,4 @@
-class Framework {
+export class Framework {
 
      constructor(rootID) {
         this.root = document.getElementById(rootID);
@@ -32,5 +32,3 @@ class Framework {
         this.router.init()
     }
 }
-
-

@@ -1,7 +1,7 @@
 function OpenNUI()
     SetNuiFocus(true, true)
     SetNuiMessage({
-        type = 'open'
+        type = 'open',
         display = true
     })
 end
